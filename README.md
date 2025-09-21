@@ -6,7 +6,7 @@ Hide and Extract Secret Message from Image
 
 <i>THE LSB METHOD</i>
 
-1.Embedding: The script stores each bit of the secret message in the Least Significant Bit of each pixel of the image.
+<i>1.Embedding: The script stores each bit of the secret message in the Least Significant Bit of each pixel of the image.
 
 2.Decoding:  The script reads the LSBs, reconstructing the original message.
 
