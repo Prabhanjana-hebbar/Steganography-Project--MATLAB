@@ -3,9 +3,13 @@ Hide and Extract Secret Message from Image
 <i>A secret message via Steganography hides a secret text message within an image, so that the image looks unchanged, but authorized users can retrieve the hidden message using a decoder script.</i>
 
 <b>How it works</b>
-<i>THE LSB METHOD
+
+<i>THE LSB METHOD</i>
+
 1.Embedding: The script stores each bit of the secret message in the Least Significant Bit of each pixel of the image.
+
 2.Decoding:  The script reads the LSBs, reconstructing the original message.
+
 3.Visualization:The code shows both original image and stego(image with secret message) image.</i>
 
 
